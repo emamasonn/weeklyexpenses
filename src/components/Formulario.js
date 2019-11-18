@@ -26,12 +26,12 @@ class FormularioGastos extends Component{
                 <h2>Agrega tus gastos aqui</h2>
                 <div className="campo">
                     <label>Nombre Gasto</label>
-                    <input ref = {this.nombreGasto} className="u-full-width" type="text" placeholder="Ej. Transporte" />
+                    <input ref = {this.nombreGasto} className="u-full-width" type="text" placeholder="Ej. Transporte" required />
                 </div>
 
                 <div className="campo">
                     <label>Cantidad</label>
-                    <input ref = {this.cantidadGasto} className="u-full-width" type="text" placeholder="Ej. 300" />
+                    <input ref = {this.cantidadGasto} className="u-full-width" type="text" placeholder="Ej. 300" required/>
                 </div>
 
                 <input className="button-primary u-full-width" type="submit" value="Agregar" />
